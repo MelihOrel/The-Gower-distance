@@ -15,3 +15,5 @@ To calculate the Gower distance in R with the "cluster" package, you can use the
 Here is an example code snippet that shows how to calculate the Gower distance for a dataset using the "daisy" function. In this example, the "patiens" dataset is used, which is a sample dataset created by me. 
 
 Due to the ratio and ordinal scale nature of the blood pressure and pain level variables in dataset, they need to be converted to z-scores. The sex variable can be coded as 1 for males and 0 for females, or vice versa. This is because there is no difference in importance between the classes of this variable, meaning that symmetry is present. For binary variables, other values that denote two conditions can also be used. For example, in this study, males were coded as M and females as F. The other variables (test1,test2 and test3) in the dataset are asymmetric binary variables. This is because a positive result of any test is more important than a negative one. In this dataset, positive results were coded as Positive and negative results as Negative.
+
+We are attempting to cluster which patient has or does not have the disease.
