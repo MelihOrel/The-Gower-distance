@@ -1,4 +1,4 @@
-## Data set sample 
+## Dataset sample 
 sex <- c('E','F','E','F','F')
 blood_pres <- c(140,120,160,150,140 )
 pain_level <- c(5,3,1,4,1)
