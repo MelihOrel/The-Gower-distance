@@ -21,4 +21,4 @@ plot(clust_gower)
 
 rect.hclust(clust_gower,k = 2)
 
-cut_model1 <- (cutree(clust_gower, 2))
+
